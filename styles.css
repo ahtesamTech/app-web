@@ -1,11 +1,16 @@
 body{
     margin: 0%;
+    padding-bottom: 100px;
 }
 
 section{
+    
     margin-bottom: 20px;
 }
-
+.new{
+    height: 200px;
+    padding-bottom: 100px;
+}
 
 
 #logo{
@@ -58,4 +63,18 @@ float: left;
     font-weight: 700;
     margin-bottom: 10px;
     background-image: linear-gradient(rgb(236, 208, 189),rgb(235, 102, 102));
+}
+
+.bracktt{
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    width: 20%;
+    float: left;
+}
+.bracktt img{
+    padding-right: 2%;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 0px;
 }
