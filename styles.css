@@ -92,7 +92,7 @@ body{
 @media screen and (max-width: 480px) {
     .container {
       width: 1370px;
-      background-color: blue;
+      background-color: rgb(192, 192, 223);
     }
     #logo{
         width: auto;
@@ -136,6 +136,7 @@ body{
         float: left;
     }
     .card{
+        float: none;
         width: 200px;
         height: 120px;
         box-shadow: 10px 15px 40px  gray;
