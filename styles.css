@@ -1,80 +1,229 @@
+.boxput{
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+   
+}
 body{
-    margin: 0%;
-    padding-bottom: 100px;
+   margin: 0px;
+
 }
 
-section{
-    
-    margin-bottom: 20px;
+.header{
+    width: auto;
+    height: 100px;
+    background-color: rgb(240, 226, 210);
 }
-.new{
-    height: 200px;
-    padding-bottom: 100px;
-}
-
 
 #logo{
-    padding-top: 10px;
-    padding-left: 10px;
-    height: 70px;
-    width: 80px;
-
-}
-#tech{
-    color: rgb(8, 133, 39);
-}
-#sec-one{
-  
-    width: 100%;
-    height: 88px;
-    background-color: rgb(198, 238, 240);
-}
-
-.brack{
-    width: 20%;
-padding-right: 10px;
-float: left;
-
-}
-
-.brackt{
-    width: 40%;
-    float: left;
-}
-.brackt img{
-    padding-right: 2%;
-    width: 100%;
-    margin-left: 50px;
-    margin-top: 0px;
-
-}
-.about{
-    margin-top: 200px;
-    box-shadow: 10px 10px 40px gray ;
-    border-radius: 10px;
-    padding: 10px 15px;
-}
-
-.button{
-    text-decoration: none;
-    padding: 8px 18px;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    font-weight: 700;
-    margin-bottom: 10px;
-    background-image: linear-gradient(rgb(236, 208, 189),rgb(235, 102, 102));
-}
-
-.bracktt{
-    margin-bottom: 50px;
-    padding-bottom: 15px;
+    width: auto;
+    height: 80px;
+    position: relative;
+    margin-top: 5px;
     margin-left: 15px;
-    width: 20%;
+}
+
+.Dheader{
     float: left;
 }
-.bracktt img{
-    padding-right: 2%;
-    width: 100%;
-    margin-left: 50px;
-    margin-top: 0px;
+
+#htext{
+    color: green;
+    margin-left: 20px;
+    font-size: 28px;
+    margin-top: 12px;
 }
+
+
+.app-img{
+    width: auto;
+    height: 100px;
+   margin-left: 15px;
+   margin-right: 15px;
+
+
+}
+.ahte{
+    float: left;
+    margin: 10px;
+}
+
+
+
+
+.downlode{
+    text-decoration: none;
+    background-color: darkseagreen;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+
+
+.folatt{
+    float: left;
+}
+.card{
+    float: left;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 120px;
+    box-shadow: 10px 15px 30px  gray;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .container {
+      width: 1370px;
+      background-color: blue;
+    }
+    #logo{
+        width: auto;
+        height: 60px;
+        position: relative;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    #htext{
+        color: green;
+        margin-left: 16px;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .app-img{
+        width: auto;
+        height: 80px;
+    
+    
+    }
+    .ahte{
+        float: left;
+        margin: 8px;
+    }
+
+
+
+    .downlode{
+        text-decoration: none;
+        background-color: darkseagreen;
+        padding: 5px 6px;
+        border-radius: 10px;
+    }
+    
+    
+    
+    .folatt{
+    margin-top: 0;
+        float: left;
+    }
+    .card{
+        width: 200px;
+        height: 120px;
+        box-shadow: 10px 15px 40px  gray;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 10px;
+    
+    
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 768px) {
+    .boxput {
+      width: 1570px;
+      
+    }
+    body{
+        background-color: blue;
+    }
+    #logo{
+        width: auto;
+        height: 80px;
+        position: relative;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    #htext{
+        color: green;
+        margin-left: 20px;
+        font-size: 28px;
+        margin-top: 12px;
+    }
+
+.app-img{
+    width: auto;
+    height: 100px;
+
+
+}
+.ahte{
+    float: left;
+    margin: 10px;
+}
+h5{
+    margin-top: 0;
+}
+
+.downlode{
+    text-decoration: none;
+    background-color: darkseagreen;
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+
+
+
+.folatt{
+margin-top: 0;
+    float: left;
+}
+.card{
+    width: 300px;
+    height: 120px;
+    box-shadow: 10px 15px 40px  gray;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+
+
+
+
+}
+
+  
+ 
